@@ -1,0 +1,9 @@
+mutation{
+  insert_todos_one(object: {
+    task: "oop"
+  }), {
+    id
+    task
+    completed
+  }
+}
